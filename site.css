@@ -34,8 +34,8 @@ ul {
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
   line-height: 1.6;
-  margin: 0.5rem 0 0.5rem 2rem; /* Tilføj venstre margin */
   font-style: italic;
+  padding-left: 60px;
 }
 
 h1,
@@ -43,13 +43,101 @@ h2,
 h3,
 p,
 ul {
-  margin: 1rem 0;
   padding: 0.5rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  display: inline-block;
+  border-bottom: 2px solid white; /* eller en anden farve */
+  padding-bottom: 0.3em;
+  margin-bottom: 0.7em;
 }
 
 p,
 ul {
   border: 2px solid black;
-  background-color: #e0f7fa;
+  background-color: white;
   border-radius: 8px;
+  margin: 1.5rem;
+}
+.index {
+  background-color: rgb(37, 36, 36);
+}
+
+.min_computer {
+  background-color: rgb(214, 212, 212);
+}
+
+.operativsystemer {
+  background-color: rgb(214, 212, 212);
+}
+
+.komponenter {
+  background-color: rgb(214, 212, 212);
+}
+
+.galleri {
+  background-color: rgb(37, 36, 36);
+}
+.h2operativ {
+  color: white;
+}
+
+.mac-overskrift {
+  color: white; /* Vælg den farve du ønsker */
+}
+
+.windows-overskrift {
+  color: white; /* Vælg den farve du ønsker */
+}
+
+.hvid-overskrift {
+  color: white;
+}
+
+.komponenter h1,
+.komponenter h2,
+.komponenter h3 {
+  color: white;
+}
+
+.galleri h2,
+.galleri h3 {
+  color: white;
+}
+
+.computere-i-hjemmetS {
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+main,
+body {
+  text-align: center;
+}
+
+.credit-box {
+  display: none;
+}
+
+.index .credit-box {
+  display: block;
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  background: #0077b6;
+  color: white;
+  padding: 0.7em 2em;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
 }
